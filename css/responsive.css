@@ -1,0 +1,74 @@
+/* RESPONSIVE STYLE START */
+@media all and (max-width: 991px) {
+  header#header .navigation-area .main-menu ul li {
+    margin-left: 4rem; }
+  .slider-area .slider-content h1 {
+    line-height: 9rem; }
+  .feature-area .feature-item .feature-content p {
+    display: none; } }
+
+@media all and (max-width: 767px) {
+  .mean-container a.meanmenu-reveal span {
+    display: inline; }
+  .mean-container a.meanmenu-reveal {
+    width: 0; }
+  .mean-bar span::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-top: .5rem;
+    height: .2rem;
+    width: 1.2rem;
+    background: #000; }
+  .mean-container .mean-nav ul li li a, .mean-container .mean-nav ul li li li a {
+    width: 100%;
+    padding: 1em 5%; }
+  .mean-container .mean-nav ul li a:hover {
+    background: #4272d7;
+    opacity: 1;
+    transition: .3s; }
+  .mean-container .mean-nav {
+    background: #000; }
+  .mean-container .mean-bar {
+    top: -2rem; }
+  .mean-container .mean-nav {
+    margin-top: 15px; }
+  .mean-container .mean-nav ul li {
+    overflow: hidden; }
+  .feature-area .feature-item .feature-content p {
+    display: block; }
+  .feature-area .feature-item .feature-content {
+    top: 88%; } }
+
+@media all and (max-width: 575px) {
+  .feature-area .feature-item .feature-content {
+    top: 85%; }
+  .blog-area .blog-active .blog-item .blog-thumb {
+    margin-right: 5rem; }
+  .blog-area .blog-active .blog-item .blog-content {
+    overflow: visible;
+    padding: 17rem 0 0 0; } }
+
+@media all and (max-width: 320px) {
+  .feature-area .feature-item .feature-content {
+    top: 75%; }
+  .feature-area .feature-item .feature-content h4 {
+    margin-bottom: 1rem; }
+  .feature-area .feature-item .feature-content p {
+    margin-bottom: 0.5rem; }
+  .blog-area .owl-carousel .owl-nav button.owl-prev {
+    left: 21rem; }
+  .blog-area .owl-carousel .owl-nav button {
+    left: 25rem; }
+  .blog-area .blog-active .blog-item .testimonial-content .testimonial-text i.fa-quote-left {
+    width: 10%; }
+  .blog-area .blog-active .blog-item .testimonial-content .testimonial-text img {
+    width: 10%; }
+  .slider-area .slider-content a.button {
+    padding: 2rem 3rem; }
+  .hire-area a.button {
+    padding: 2rem 4rem; }
+  .work-area a.button {
+    padding: 2rem 4rem; } }
+
+/* RESPONSIVE STYLE END */
