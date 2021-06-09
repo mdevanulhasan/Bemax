@@ -4,13 +4,16 @@
   "description": "This is our Project BoilerPlate.",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "deploy": "gh-pages -d src"
   },
   "author": "Md Evanul Hasan",
   "license": "MIT",
+  "homepage": "https://mdevanulhasan.github.io/Bemax",
   "dependencies": {
     "bootstrap": "^4.5.2",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.2.0",
     "html5shiv": "^3.7.3",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
