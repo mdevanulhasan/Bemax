@@ -445,6 +445,7 @@ header#header {
         background: $cmn-color;
         transform: scale(0%);
         transition: .3s all ease;
+        opacity: .9;
     }
       .project-content {
         position: absolute;
@@ -834,6 +835,7 @@ footer.footer-area {
             border: none;
             padding: 1.5rem;
             background: #2f3138;
+            color: $wht;
           }
           button {
             border: none;

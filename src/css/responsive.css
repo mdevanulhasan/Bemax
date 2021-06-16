@@ -32,7 +32,7 @@
   .mean-container .mean-bar {
     top: -2rem; }
   .mean-container .mean-nav {
-    margin-top: 15px; }
+    margin-top: 20px; }
   .mean-container .mean-nav ul li {
     overflow: hidden; }
   .feature-area .feature-item .feature-content p {
@@ -47,7 +47,19 @@
     margin-right: 5rem; }
   .blog-area .blog-active .blog-item .blog-content {
     overflow: visible;
-    padding: 17rem 0 0 0; } }
+    padding: 17rem 0 0 0; }
+  .project .project-area .project-item .project-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0; }
+  .project .project-area .project-item .project-content h5 {
+    font-size: 1rem; }
+  .project .project-area .owl-carousel .owl-nav button {
+    left: -4%;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem; }
+  .project .project-area .owl-carousel .owl-nav button.owl-next {
+    right: -4%; } }
 
 @media all and (max-width: 320px) {
   .feature-area .feature-item .feature-content {

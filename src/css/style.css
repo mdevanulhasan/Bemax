@@ -361,7 +361,8 @@ header#header .navigation-area {
         height: 100%;
         background: #4272d7;
         transform: scale(0%);
-        transition: .3s all ease; }
+        transition: .3s all ease;
+        opacity: .9; }
       .project .project-area .project-item .project-content {
         position: absolute;
         top: 50%;
@@ -669,7 +670,8 @@ footer.footer-area {
       height: 4rem;
       border: none;
       padding: 1.5rem;
-      background: #2f3138; }
+      background: #2f3138;
+      color: #fff; }
     footer.footer-area .footer-header .email-content form button {
       border: none;
       position: absolute;
